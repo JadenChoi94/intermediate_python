@@ -48,7 +48,7 @@ print(Point1, Point2, Point3, Point4)
 print()
 print()
 
-# Dict to Unpacking
+# Dict to Unpacking!!! 언패킹 중요
 temp_dict = {'x': 75, 'y': 55}
 
 # 객체 생성
