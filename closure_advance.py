@@ -30,7 +30,7 @@ print(dir(avg_closure1))
 print()
 print(dir(avg_closure1.__code__))
 print()
-print(avg_closure1.__code__.co_freevars)
+print(avg_closure1.__code__.co_freevars) # 여기부분에서 파이썬이 자유변수를 가지고 있다는걸 확인할 수 있다.
 print()
 print(dir(avg_closure1.__closure__[0]))
 print()

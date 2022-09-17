@@ -1,5 +1,6 @@
 # 파이썬 심화
 # 클로저 기초
+# 외부에서 호출된 함수의 변수값, 상태(레퍼런스) 복사 후 저장 -> 후에 접근(엑세스) 가능
 
 # 파이썬 변수 범위(scope)
 
@@ -15,11 +16,11 @@ def func_v1(a):
 # Ex2
 b = 20
 
-def func_v2(a):
-    print(a)
-    print(b)
+# def func_v2(a):
+#     print(a)
+#     print(b)
 
-func_v2(10)
+# func_v2(10)
 
 
 # Ex3
@@ -49,7 +50,7 @@ print()
 # 서버 프로그래밍 -> 동시성(Concurrency)제어 -> 메모리 공간에 여러 자원이 접근 -> 교착상태(Dead Lock)
 # 메모리를 공유하지 않고 메시지 전달로 처리하기 위한 -> Erlang
 # 클로저는 공유하되 변경되지 않는(Immutable, Read Only) 적극적으로 사용 -> 함수형 프로그래밍
-# 클로저는 불변자료구조 및 atom, STM -> 멀티스레드(Coroutine) 프로그래밍에 강점
+# 클로저는 불변자료구조 및 atom, STM -> 멀티스레드(Coroutine) 프로그래밍에 강점!
 a = 100
 
 print(a + 100)
